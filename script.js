@@ -1,5 +1,5 @@
 // --- 1. AWS Cognito 설정 정보 (본인 것으로 교체 필수!) ---
-const cognitoDomain = "https://ap-northeast-1pkfzjxihj.auth.ap-northeast-1.amazoncognito.com/"; // 설정한 도메인 (https:// 포함, 마지막 슬래시 제외)
+const cognitoDomain = "https://d84l1y8p4kdic.cloudfront.net"; // 설정한 도메인 (https:// 포함, 마지막 슬래시 제외)
 const clientId = "2thh3n0kiaakr7ulfk0pqapu6o"; 
 const redirectUri = window.location.origin + "/"; // 현재 접속한 주소 (App Runner 도메인)
 
