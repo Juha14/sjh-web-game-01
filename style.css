@@ -12,6 +12,18 @@ body {
     text-align: center;
 }
 
+.btn {
+    background-color: #2f3542;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.btn:hover { background-color: #57606f; }
+
 #game-area {
     width: 400px;
     height: 400px;
