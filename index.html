@@ -8,13 +8,21 @@
 </head>
 <body>
     <div class="container">
+        <div id="login-area">
+            <button id="btn-login" class="btn">로그인하고 점수 저장하기</button>
+        </div>
+
+        <div id="user-area" style="display:none;">
+            <p>환영합니다, <span id="user-email">Guest</span>님!</p>
+            <button id="btn-logout" class="btn">로그아웃</button>
+        </div>
+
         <h1>🔴 클릭 게임</h1>
         <p>점수: <span id="score">0</span></p>
         <div id="game-area">
-            <div id="target"></div>
-        </div>
-        <p class="description">빨간 공을 클릭해서 점수를 올리세요!</p>
+        <div id="target"></div>
     </div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
